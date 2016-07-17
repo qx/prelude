@@ -1,7 +1,9 @@
 (defun indent-buffer()
   (interactive)
   (indent-region (point-min) (point-max)))
-(setq ranger-override-dired t)
+
+
+; (setq ranger-override-dired t)
 
 ;; If you want the keybinding to override all minor modes that may also bind
 ;; the same key, use the `bind-key*' form:
